@@ -55,30 +55,47 @@
     <video autoplay loop muted poster="./video/poster.png">
       <source src="./video/CorporateCloud.webm" type="video/webm" />
     </video>
-    <a href="./img/me.jpg" target="_blank">
+    <a href="./img/ShawnABurgess.jpg" target="_blank">
       <div id="me" class="img-rounded">
         <h2>Shawn A Burgess</h2>
       </div>
     </a>
   </div>
   <div class="container" itemscope itemtype="http://www.schema.org/Person">
-    <div class="row" id="social">
-      <div class="col-md-2 col-md-offset-2">
+    <div class="row text-center" id="social">
+      <div class="col-xs-4 col-sm-2 col-sm-offset-1">
         <a href="https://facebook.com/shawnburgess" target="_blank">
           <img height="114" width="114" src="img/facebook.svg" alt="Facebook" />
         </a>
       </div>
-      <div class="col-md-2">
+      <!-- Email first on xs, second </div>on sm+ to keep email centered-->
+      <div class="col-xs-4 visible-xs-block hidden-sm hidden-md hidden-lg">
+        <a href="mailto:Shawn@ShawnABurgess.com" target="_blank">
+          <img height="114" width="114" src="img/email.svg" alt="Email" />
+        </a>
+      </div>
+      <div class="col-xs-4 visible-xs-block hidden-sm hidden-md hidden-lg">
         <a href="https://linkedin.com/in/shawnalanburgess" target="_blank">
           <img height="114" width="114" src="img/linkedin.svg" alt="LinkedIn" />
         </a>
       </div>
-      <div class="col-md-2">
+      <!-- LinkedIn first on sm+, Email second on sm+ -->
+      <div class="col-sm-2 hidden-xs">
+        <a href="https://linkedin.com/in/shawnalanburgess" target="_blank">
+          <img height="114" width="114" src="img/linkedin.svg" alt="LinkedIn" />
+        </a>
+      </div>
+      <div class="col-sm-2 hidden-xs">
+        <a href="mailto:Shawn@ShawnABurgess.com" target="_blank">
+          <img height="114" width="114" src="img/email.svg" alt="Email" />
+        </a>
+      </div>
+      <div class="col-xs-6 col-sm-2">
         <a href="https://www.instagram.com/shawnaburgess/" target="_blank">
           <img height="114" width="114" src="img/instagram.svg" alt="Instagram" />
         </a>
       </div>
-      <div class="col-md-2">
+      <div class="col-xs-6 col-sm-2">
         <a href="https://github.com/ShawnABurgess/" target="_blank">
           <img height="114" width="114" src="img/github.svg" alt="github" />
         </a>
@@ -283,7 +300,6 @@
   <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
   <script src="https://code.jquery.com/jquery.js"></script>
   <!-- Include all compiled plugins (below), or include individual files as needed -->
-
   <script src="./js/bootstrap.min.js"></script>
 </body>
 
