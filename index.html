@@ -133,19 +133,17 @@
       </div>
       <div>
         <ul class="lead">
-          <li>Modernized multi-tenant ELN / registration platform: refactored core request & configuration services for extensibility and performance.</li>
-          <li>Centralized chemistry processing: CDXML conversions, salt & stereochemistry normalization, stoichiometry & reaction APIs.</li>
-          <li>Expanded registration workflows: parent/child lineage, gap-free numbering, stoichiometry grid, salts & structure property derivation, sequence validation.</li>
-          <li>Engineered resilient bulk import & update pipelines (chem + bio sequences, SDF/SD, sub-data mapping, warning/error framework).</li>
-          <li>Led SAML SSO & identity integration (enterprise metadata, multi-environment configs) streamlining customer onboarding.</li>
-          <li>Built comprehensive Postman API test suite (multi-environment matrices + pipeline integration) raising regression confidence.</li>
-          <li>Strengthened unit & integration test coverage; upgraded MSTest frameworks and introduced coverage tooling.</li>
-          <li>Implemented feature flag strategy (stoichiometry, inventory linking, chemistry canvas, CAS / CRAIS checks) enabling incremental rollout.</li>
-          <li>Introduced structured logging, performance instrumentation & interface log service improving diagnostics & mean time to recovery.</li>
-          <li>Drove Azure DevOps + Kubernetes delivery improvements: templated pipelines, repeatable promotion, deployment reliability.</li>
-          <li>Reduced technical debt across legacy Classic ASP / PHP / Python surfaces; migrated critical chem & search logic to services.</li>
-          <li>Advanced internationalization (new locales, culture defaults) and data privacy (PII minimization).</li>
-          <li>Refined permission & role gating (restricted search, inventory linking visibility) enhancing security posture.</li>
+          <li>Modernized multi-tenant ELN / registration platform from Classic ASP, PHP and Python 2 to .NET 4.5+ (C#, ASP.NET MVC/Web API) using Entity Framework, SQL Server, microservices and RESTful architecture to refactor core request & configuration services for extensibility and performance.</li>
+          <li>Centralized chemistry processing in C# Web API microservices (CDXML conversions, salt & stereochemistry normalization, stoichiometry & reaction endpoints) backed by SQL Server data models and structured logging for reliability.</li>
+          <li>Expanded registration workflows (parent/child lineage, gap-free numbering, stoichiometry grid, salts & property derivation, sequence validation) via React front-end integrated with .NET RESTful APIs and Entity Framework persistence.</li>
+          <li>Engineered resilient bulk import & update pipelines (chemistry + bio sequences, SDF/SD) using asynchronous C# processing, and a SQL Server database.</li>
+          <li>Led SAML SSO & identity integration to streamline customer's user authentication experience.</li>
+          <li>Built comprehensive Postman multi-environment API test suites integrated into Azure DevOps pipelines, improving regression confidence across microservice REST endpoints.</li>
+          <li>Strengthened unit & integration test coverage with MSTest and Coverlet across .NET codebases, elevating quality and change safety.</li>
+          <li>Introduced structured logging, performance instrumentation and an interface log service across .NET Web API and front-end layers to accelerate diagnostics and reduce mean time to recovery.</li>
+          <li>Drove Azure DevOps pipeline templating and Kubernetes (Docker-based) deployment standardization for repeatable promotion and higher release reliability.</li>
+          <li>Advanced internationalization (locale expansion, culture defaults) and data privacy (PII minimization) across JavaScript/TypeScript UI and .NET service layers.</li>
+          <li>Refined permission & role gating (restricted search, inventory linking and visibility) enhancing security posture.</li>
           <li>Mentored engineers in code review, observability patterns, and sustainable refactoring practices.</li>
         </ul>
       </div>
@@ -284,7 +282,7 @@
     <div class="jumbotron">
       <h1>Technical Skills</h1>
       <p class="lead"><strong>Languages:</strong> C#, JavaScript / TypeScript, SQL, Java, Python, PHP, Classic ASP, HTML, CSS</p>
-      <p class="lead"><strong>Frameworks & Libraries:</strong> .NET / ASP.NET MVC & Web API, React, Node.js, Spring, Hibernate, MSTest, xUnit, Bootstrap, jQuery</p>
+      <p class="lead"><strong>Frameworks & Libraries:</strong> .NET / ASP.NET MVC & Web API, React, Node.js, Entity Framework, Spring, Hibernate, MSTest, xUnit, Bootstrap, jQuery</p>
       <p class="lead"><strong>Cloud & DevOps:</strong> Azure DevOps (Repos, Pipelines, Boards), Kubernetes, Docker, build & release templating, artifact/version management, environment promotion workflows, CI/CD</p>
       <p class="lead"><strong>Data & Persistence:</strong> SQL Server, relational modeling, migration scripting, bulk ingestion (SDF, CSV, XML, JSON)</p>
       <p class="lead"><strong>Search & Analytics:</strong> full-text search integration, structured & predicate search, performance & relevance tuning, export pipelines</p>
